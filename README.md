@@ -20,7 +20,7 @@ then add dependancy to your angular application, note there's also dependancy on
 `ui.bootstrap`
 
 ```
-  var app = angular.module('myapp', ['ui.bootstrap','angular-ui-confirm']);
+  var app = angular.module('myapp', ['ui.bootstrap','ui-confirm']);
 ```
 
 then add directive to your HTML

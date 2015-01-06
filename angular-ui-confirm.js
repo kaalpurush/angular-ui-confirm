@@ -1,9 +1,9 @@
-var app = angular.module('angular-ui-confirm', ['ui.bootstrap']);
+var app = angular.module('ui-confirm', ['ui.bootstrap']);
 app.directive('confirm', ['$modal', function($modal) {
   return {
     restrict: 'A',
     scope: {
-      'action': '&nConfirm',
+      'action': '&confirm',
       'text': '@rel'
     },
     link: function(scope, elem, attrs) {
